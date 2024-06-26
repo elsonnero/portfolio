@@ -11,7 +11,8 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #272829;
+  color: #e0e0e0;
+  background-color: #292a2e;
 }
 
 a {
@@ -20,7 +21,7 @@ a {
 }
 
 a:hover {
-  color: #067ded;
+  color: #f05225;
   text-decoration: none;
 }
 
@@ -52,7 +53,7 @@ h6 {
 
 .back-to-top i {
   font-size: 28px;
-  color: #ffffff;
+  color: #fff;
   line-height: 0;
 }
 
@@ -176,13 +177,13 @@ h6 {
 .nav-menu a:focus {
   display: flex;
   align-items: center;
-  color: #45505b;
+  color: #f05225;
   padding: 10px 18px;
   margin-bottom: 8px;
   transition: 0.3s;
   font-size: 15px;
   border-radius: 50px;
-  background: #f2f3f5;
+  background: #e0e0e0;
   height: 56px;
   width: 100%;
   overflow: hidden;
@@ -218,8 +219,8 @@ h6 {
 .nav-menu .active,
 .nav-menu .active:focus,
 .nav-menu li:hover>a {
-  color: #fff;
-  background: #0563bb;
+  color: #e0e0e0;
+  background: #f05225;
 }
 
 .nav-menu a:hover span,
@@ -286,8 +287,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top right no-repeat;
-  background-color: #1241ad;
+  background-color: #292a2e;
   background-size: cover;
   position: relative;
   justify-content: center;
@@ -382,7 +382,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #45505b;
+  color: #e0e0e0;
 }
 
 .section-title h2::before {
@@ -402,7 +402,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #0563bb;
+  background: #f05225;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -505,7 +505,7 @@ section {
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #45505b;
+  color: #e0e0e0;
 }
 
 .skills .progress .skill .val {
@@ -521,7 +521,7 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #0563bb;
+  background-color: #f05225;
 }
 
 /*--------------------------------------------------------------
@@ -532,13 +532,13 @@ section {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #45505b;
+  color: #e0e0e0;
 }
 
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #0563bb;
+  border-left: 2px solid #e0e0e0;
   position: relative;
 }
 
@@ -548,13 +548,13 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #0563bb;
+  color: #f05225;
   margin-bottom: 10px;
 }
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: #f7f8f9;
+  background: #292a2e;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
@@ -581,8 +581,8 @@ section {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #fff;
-  border: 2px solid #0563bb;
+  background: #f05225;
+  border: 2px solid #f05225;
 }
 
 /*--------------------------------------------------------------
@@ -610,14 +610,14 @@ section {
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
-  color: #272829;
+  color: #292a2e;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: #0563bb;
+  color: #f05225;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -1028,16 +1028,16 @@ section {
 --------------------------------------------------------------*/
 .contact .info {
   width: 100%;
-  background: #fff;
+  background: #292a2e;
 }
 
 .contact .info i {
   font-size: 20px;
-  color: #0563bb;
+  color: #f05225;
   float: left;
   width: 44px;
   height: 44px;
-  background: #eef7ff;
+  background: #e0e0e0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1050,14 +1050,14 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #45505b;
+  color: #e0e0e0;
 }
 
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #728394;
+  color: #e0e0e0;
 }
 
 .contact .info .email,
@@ -1068,13 +1068,13 @@ section {
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #0563bb;
-  color: #fff;
+  background: #f05225;
+  color: #e0e0e0;
 }
 
 .contact .php-email-form {
   width: 100%;
-  background: #fff;
+  background: #292a2e;
 }
 
 .contact .php-email-form .form-group {
@@ -1139,7 +1139,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #0563bb;
+  background: #f05225;
   border: 0;
   padding: 10px 35px;
   color: #fff;
@@ -1165,8 +1165,8 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #f7f8f9;
-  color: #45505b;
+  background: #292a2e;
+  color: #e0e0e0;
   font-size: 14px;
   text-align: center;
   padding: 30px 0;
@@ -1195,8 +1195,8 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #0563bb;
-  color: #fff;
+  background: #e0e0e0;
+  color: #f05225;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1208,7 +1208,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #0678e3;
+  background: #f05225;
   color: #fff;
   text-decoration: none;
 }
